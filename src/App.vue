@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    123
+    <!-- <VueMxSample /> -->
+    <vmx-alert></vmx-alert>
+    <p>
+      Lorem, ipsum.
+    </p>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import { VueMxSample } from "@/entry";
+
+import { vmxAlert } from "@/entry";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    vmxAlert
+    // VueMxSample
   }
 };
 </script>
